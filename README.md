@@ -8,8 +8,18 @@ Clone or download this repository. Install the R dependencies:
 
 ```R
 install.packages(c("gstat", "sf", "terra", "ggplot2", "ggrepel", "ggspatial", "tidyterra"))
-
 ```
+
+### Required R Packages and Versions
+
+- gstat: 2.1.2
+- sf: 1.0.18
+- terra: 1.7.83
+- ggplot2: 3.5.1
+- ggrepel: 0.9.6
+- ggspatial: 1.1.9
+- tidyterra: 0.6.1
+
 Run the ```main.R``` script to reproduce the results, including PCA and kriging visualizations.
 
 ## Citation
